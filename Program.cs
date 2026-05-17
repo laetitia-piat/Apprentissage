@@ -1,7 +1,14 @@
-﻿Console.WriteLine("This is the first line.");
-
-Console.Write("This is ");
-Console.Write("the second ");
-Console.WriteLine("line.");
-
-Exercice.Addition(5, 3);
+﻿string name = "Laetitia";
+char letter = 'A';
+int number = 42;
+float pi = 3.14159254893626f;
+double e = 2.71828555445555888889966333333333321;
+decimal money = 19.99m;
+Console.WriteLine("Hello, " + name + "!");
+Console.WriteLine(number);
+Console.WriteLine(letter);
+Console.WriteLine(pi);
+Console.WriteLine(Math.Round(e,2));
+Console.WriteLine(money);
+//Exercice.Addition(5, 3);
+Exercice.Substraction(10, 4);

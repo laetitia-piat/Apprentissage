@@ -4,4 +4,8 @@ public static class Exercice
     {
         Console.WriteLine(a + b);
     }
+    public static void Substraction(int a, int b)
+    {
+        Console.WriteLine(a - b);
+    }
 }
