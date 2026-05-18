@@ -1,5 +1,4 @@
-﻿using System.Data;
-
+﻿//https://learn.microsoft.com/fr-fr/training/paths/get-started-c-sharp-part-1/
 string name = "Laetitia";
 char letter = 'A';
 int number = 42;
@@ -27,9 +26,19 @@ Console.Write("Hello, " + name + "! ");
 Console.Write("You have " + number + " messages in your inbox. ");
 Console.WriteLine("The temperature is " + temperature + " degrees Celsius.");
 
-Console.WriteLine("Entrez votre prénom : ");
-string prenom = Console.ReadLine();
-Console.WriteLine("Bonjour, " + prenom + "!");
+//Console.WriteLine("Entrez votre prénom : ");
+//string prenom = Console.ReadLine();
+//Console.WriteLine("Bonjour, " + prenom + "!");
 
-Console.WriteLine("Hello\nWorld!");
-Console.WriteLine("Hello\tWorld!");
+Console.WriteLine($"Hello {name}!");
+
+
+string projectName = "ACME";
+
+string englinshMessage = "View English output";
+string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+
+Console.WriteLine(englinshMessage + ":" + $" \n\tc:\\Exercise\\{projectName}\\data.txt");
+Console.WriteLine(russianMessage + ":" + $" \n\tc:\\Exercise\\{projectName}\\ru-RU\\data.txt");
+
+
