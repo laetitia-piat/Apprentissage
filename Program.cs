@@ -29,9 +29,7 @@ Console.WriteLine("The temperature is " + temperature + " degrees Celsius.");
 //Console.WriteLine("Entrez votre prénom : ");
 //string prenom = Console.ReadLine();
 //Console.WriteLine("Bonjour, " + prenom + "!");
-
 Console.WriteLine($"Hello {name}!");
-
 
 string projectName = "ACME";
 
